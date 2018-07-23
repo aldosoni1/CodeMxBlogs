@@ -1,9 +1,6 @@
-﻿using System;
-
-namespace CodeMxBlogs
+﻿namespace CodeMxBlogsCore
 {
     public class Class1
     {
-        
     }
 }
