@@ -13,14 +13,19 @@ namespace CodeMxBlogsCore.Modelos
         /// Propiedades de clase
         /// </summary>
         public Guid VersionGuid { get; set; }
-        public string NombreVersion { get; set; }
+        public string Nombre { get; set; }
         public DateTime FechaPublicacion { get; set; }
         public string Caracteristicas { get; set; }
+        /// <summary>
+        /// Este es la propiedad que tiene el nombre de Versionado. Ejemplo: X,Y,Z [1.2.3]
+        /// 
+        /// </summary>
+        public string Numero { get; set; }
 
         /// <summary>
         /// Propiedades de mapeo base de datos
         /// </summary>
-        public Proyecto Proyecto { get; set; }
+        public virtual Proyecto Proyecto { get; set; }
         public Guid ProyectoRefGuid { get; set; }
     }
 }
