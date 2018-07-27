@@ -16,6 +16,7 @@ namespace CodeMxBlogsCore.Modelos
         public string Nombre { get; set; }
         public DateTime UltimaActualizacion { get; set; }
         public string Descripcion { get; set; }
+        //COmentario
 
         public override string ToString()
         {
