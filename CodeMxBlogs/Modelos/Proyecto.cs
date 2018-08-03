@@ -40,5 +40,7 @@ namespace CodeMxBlogsCore.Modelos
         {
             return $"Nombre del Proyecto:{Nombre} Descripcion: {Descripcion} Ultima Fecha de Actualización: {UltimaActualizacion.ToString("dd-MM-yy")}";
         }
+
+        public ICollection<Version> Versiones { get; set; }
     }
 }

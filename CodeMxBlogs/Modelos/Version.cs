@@ -25,7 +25,7 @@ namespace CodeMxBlogsCore.Modelos
         /// <summary>
         /// Propiedades de mapeo base de datos
         /// </summary>
-        public virtual Proyecto Proyecto { get; set; }
-        public Guid ProyectoRefGuid { get; set; }
+        public Proyecto Proyecto { get; set; }
+        public Guid ProyectoGuid { get; set; }
     }
 }

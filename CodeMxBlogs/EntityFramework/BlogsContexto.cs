@@ -18,6 +18,8 @@ namespace CodeMxBlogsCore.EntityFramework
         {
 
             modelBuilder.ApplyConfiguration<Proyecto>(new ProyectoConfiguracion());
+            modelBuilder.ApplyConfiguration<Modelos.Version>(new VersionConfiguracion());
+            modelBuilder.ApplyConfiguration<Funcionalidad>(new FuncionalidadConfiguracion());
             base.OnModelCreating(modelBuilder);
         }
     }
